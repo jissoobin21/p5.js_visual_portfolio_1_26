@@ -33,3 +33,5 @@
 
 - 사용한 핵심 AI/프롬프트(선택): 미적 구성 및 반응형 레이아웃 개선에 ChatGPT 활용  
 - 사용한 핵심 HTML/CSS/JS: CSS Grid, iframe 임베드, 반응형 브레이크포인트, `a` 링크 라벨
+
+<!-- deploy refresh -->
