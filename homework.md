@@ -229,10 +229,8 @@ transform: scale(0.5);
 
 https://unibook.co/book/9/section/812
 
-아이디: 
-jissoobin21@gmail.com
-
-패스워드: gofldhffl0621 
+아이디/패스워드:
+해당 정보는 과제 제출본에 포함하지 마세요.
 
 
 
