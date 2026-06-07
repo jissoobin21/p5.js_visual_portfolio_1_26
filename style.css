@@ -12,9 +12,9 @@ body {
 }
 
 body {
-  max-width: 1080px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 24px;
 }
 
 .hero {
@@ -35,7 +35,7 @@ body {
 .projects {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  gap: 20px;
 }
 
 .cell {
@@ -48,7 +48,7 @@ body {
   box-shadow: 0 10px 24px rgba(11, 38, 76, 0.15);
   border: 1px solid rgba(18, 34, 58, 0.2);
   background: #0f1725;
-  min-height: 260px;
+  min-height: 380px;
 }
 
 .cell::after {
@@ -69,7 +69,7 @@ body {
 .preview {
   position: relative;
   width: 100%;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
 }
 
@@ -81,7 +81,7 @@ body {
 .cell .meta {
   position: static;
   z-index: 2;
-  padding: 10px 12px 12px;
+  padding: 12px 14px 14px;
   border-radius: 0 0 13px 13px;
   background: rgba(6, 12, 28, 0.88);
   color: #f2f7ff;
@@ -96,7 +96,7 @@ body {
 
 .summary {
   margin: 0;
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   line-height: 1.34;
   color: #e8f0ff;
   max-height: 4.2em;
