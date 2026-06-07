@@ -25,7 +25,7 @@
 
 - 사용자명: `jisoobin21` (현재 실제 배포 계정 기준)
 - 저장소명: `p5.js_visual_portfolio_1_26`
-- 제출 URL: `https://jisoobin21.github.io/p5.js_visual_portfolio_1_26/`
+- 제출 URL: `https://jissoobin21.github.io/p5.js_visual_portfolio_1_26/`
 
 *참고: 과제 안내서에 사용자명이 달라도, 실제 배포 URL은 반드시 현재 업로드된 계정과 저장소 기준으로 제출해야 한다.*
 
@@ -33,5 +33,3 @@
 
 - 사용한 핵심 AI/프롬프트(선택): 미적 구성 및 반응형 레이아웃 개선에 ChatGPT 활용  
 - 사용한 핵심 HTML/CSS/JS: CSS Grid, iframe 임베드, 반응형 브레이크포인트, `a` 링크 라벨
-
-<!-- deploy refresh -->
