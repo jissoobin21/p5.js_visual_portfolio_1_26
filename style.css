@@ -47,6 +47,7 @@ body {
   box-shadow: 0 10px 24px rgba(11, 38, 76, 0.15);
   border: 1px solid rgba(18, 34, 58, 0.2);
   background: #0f1725;
+  display: block;
 }
 
 .cell::after {
@@ -58,27 +59,42 @@ body {
 }
 
 .cell iframe {
-  width: 200%;
-  height: 200%;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0.5);
-  transform-origin: center center;
+  inset: 0;
+  transform: none;
   border: 0;
   display: block;
 }
 
-.label {
+.cell .meta {
   position: absolute;
   left: 10px;
   bottom: 10px;
-  z-index: 1;
-  padding: 6px 10px;
-  border-radius: 8px;
-  background: rgba(14, 23, 39, 0.55);
+  right: 10px;
+  z-index: 2;
+  padding: 8px 10px 10px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(6, 12, 28, 0), rgba(6, 12, 28, 0.86));
   color: #f2f7ff;
-  font-size: 0.9rem;
+}
+
+.cell .label {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.summary {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.3;
+  color: #e8f0ff;
+  max-height: 3.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (max-width: 900px) {
