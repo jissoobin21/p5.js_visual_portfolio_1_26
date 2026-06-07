@@ -42,7 +42,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   border-radius: 14px;
   text-decoration: none;
   box-shadow: 0 10px 24px rgba(11, 38, 76, 0.15);
@@ -61,13 +60,25 @@ body {
 
 .cell iframe {
   background: #000;
-  position: static;
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  height: auto;
+  width: 200%;
+  height: 200%;
   border: 0;
   display: block;
   pointer-events: none;
+  transform-origin: top left;
+  transform: scale(0.5);
+}
+
+.preview {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+}
+
+.preview > iframe {
+  width: 200%;
+  height: 200%;
 }
 
 .cell .meta {
